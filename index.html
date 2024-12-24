@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBTC Vault</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>WBTC Vault Interface</h1>
+
+    <!-- Deposit Section -->
+    <h3>Deposit WBTC</h3>
+    <form id="depositForm">
+        <label for="depositAmount">Amount (in WBTC): </label>
+        <input type="number" id="depositAmount" required><br><br>
+        <button type="submit" id="depositButton">Deposit</button>
+    </form>
+
+    <!-- Fund Gas Section -->
+    <h3>Fund Gas</h3>
+    <form id="fundGasForm">
+        <label for="fundGasAmount">Amount (in ETH): </label>
+        <input type="number" id="fundGasAmount" required><br><br>
+        <button type="submit" id="fundGasButton">Fund Gas</button>
+    </form>
+
+    <!-- Withdraw Gas Section -->
+    <h3>Withdraw Gas</h3>
+    <form id="withdrawGasForm">
+        <label for="withdrawGasAmount">Amount (in ETH): </label>
+        <input type="number" id="withdrawGasAmount" required><br><br>
+        <button type="submit" id="withdrawGasButton">Withdraw Gas</button>
+    </form>
+
+    <!-- Query Section -->
+    <h3>Query Deposit</h3>
+    <form id="queryForm">
+        <label for="depositorAddress">Depositor Address: </label>
+        <input type="text" id="depositorAddress" required><br><br>
+        <button type="submit" id="queryButton">Query</button>
+    </form>
+
+    <h4>Result:</h4>
+    <p id="balanceDisplay">Balance: </p>
+    <p id="beneficiaryDisplay">Beneficiary: </p>
+
+    <script src="app.js"></script>
+</body>
+</html>

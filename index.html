@@ -34,7 +34,7 @@
     </form>
 
     <!-- Query Section -->
-    <h3>Query Deposit</h3>
+    <h3>Query by Depositor Address</h3>
     <form id="queryForm">
         <label for="depositorAddress">Depositor Address: </label>
         <input type="text" id="depositorAddress" required><br><br>
@@ -44,6 +44,18 @@
     <h4>Result:</h4>
     <p id="balanceDisplay">Balance: </p>
     <p id="beneficiaryDisplay">Beneficiary: </p>
+
+    <!-- Query by Beneficiary Address -->
+    <h3>Query by Beneficiary Address</h3>
+    <form id="queryBeneficiaryForm">
+        <label for="beneficiaryAddress">Beneficiary Address: </label>
+        <input type="text" id="beneficiaryAddress" required><br><br>
+        <button type="submit" id="queryBeneficiaryButton">Query</button>
+    </form>
+
+    <h4>Result by Beneficiary Address:</h4>
+    <p id="depositAddressDisplay">Depositor Address: </p>
+    <p id="beneficiaryBalanceDisplay">Balance: </p>
 
     <script src="app.js"></script>
 </body>

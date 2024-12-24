@@ -3,3 +3,4 @@ Fund Gas
 Query by Storage Address
 Query by Beneficiary Address
 Query by Depositor Address
+Security Tip: For higher security, it is recommended to use a hardware wallet for operation.

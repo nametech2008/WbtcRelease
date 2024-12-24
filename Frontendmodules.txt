@@ -1,1 +1,5 @@
 Deposit WBTC
+Fund Gas
+Query by Storage Address
+Query by Beneficiary Address
+Query by Depositor Address

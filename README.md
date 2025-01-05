@@ -1,4 +1,4 @@
-# WbtcTrust
+# WbtcRelease
 
 
 erc20合约 只能存wbtc  每年元旦释放余额1% 到指定地址
